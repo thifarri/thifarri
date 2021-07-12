@@ -1,0 +1,24 @@
+Algoritmo "SA2 - Atividade 1 - Verificação do Cadastro de Clientes"
+
+Var
+renda, gastar: real
+
+
+Inicio
+//entrada
+escreval ("Olá, por favor digite a renda do cliente: ")
+leia (renda)
+
+//processamento & saída
+se ((renda>=1000) e (renda<3000)) entao
+gastar <- renda*0.3
+escreval ("O cliente está na faixa 1 e pode comprar até ", gastar)
+
+senao
+se ((renda>3000) e (renda<5000)) entao
+gastar <- renda*0.35
+escreval ("O cliente está na faixa 2 e pode comprar até ", gastar)
+fimse
+fimse
+
+Fimalgoritmo
